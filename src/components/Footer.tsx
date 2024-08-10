@@ -1,0 +1,79 @@
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+
+const Footer = () => {
+  return (
+    <div className="bg-[#1649FF] text-white pt-20">
+      <div className="max-w-7xl mx-auto flex justify-between">
+        <div className="">
+          <h2 className="text-2xl font-medium mb-2">Inovact social</h2>
+          <p>
+            Address : #731, E & F Block , Kuvempunagar, Mysore - 570023
+            <br /> Email: inovacteam@gmail.com
+            <br /> Phone: +91 8296024720
+          </p>
+        </div>
+        <div className="">
+          <h2 className="text-2xl font-medium mb-2">Products</h2>
+          <h3>Features </h3>
+          <h3>Join community </h3>
+        </div>
+        <div className="">
+          {" "}
+          <h2 className="text-2xl font-medium mb-2">Company </h2>
+          <h3>About us </h3>
+          <h3>Contact us </h3>
+        </div>
+        <Link href="#">
+          {" "}
+          <div className="">
+            <svg
+              width="56"
+              height="56"
+              viewBox="0 0 56 56"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="56" height="56" rx="28" fill="#E7E0F5" />
+              <path
+                d="M21.88 32.9425L28 26.8358L34.12 32.9425L36 31.0625L28 23.0625L20 31.0625L21.88 32.9425Z"
+                fill="#7000A3"
+              />
+            </svg>
+          </div>
+        </Link>
+      </div>
+      <div className="max-w-7xl mx-auto items-center justify-center">
+        <div className="">
+          <div className="lg:text-6xl text-4xl text-center my-10">
+            @Join Inovact community{" "}
+          </div>
+          <div className="flex items-center justify-center gap-10">
+            <Link href="#">
+              <Image src="/images/33.svg" alt="" width={50} height={50} />
+            </Link>
+            <Link href="#">
+              <Image src="/images/34.svg" alt="" width={50} height={50} />
+            </Link>{" "}
+            <Link href="#">
+              <Image src="/images/35.svg" alt="" width={50} height={50} />
+            </Link>
+          </div>
+        </div>
+        <div className="mt-10">&copy; 2024 All rights reserved.</div>
+      </div>
+      <div className=" ">
+        <Image
+          src="/images/36.svg"
+          className="mx-auto mt-auto"
+          alt=""
+          width={1000}
+          height={500}
+        />
+      </div>
+    </div>
+  );
+};
+
+export default Footer;

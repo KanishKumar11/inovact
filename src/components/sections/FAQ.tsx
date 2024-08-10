@@ -35,7 +35,7 @@ const FAQ = () => {
         className={`text-xl bg-[#1649FF] text-white flex gap-4 rounded-full px-8 py-2 items-center`}
       >
         <span className="font-bold">?</span>
-        FAQ's
+        FAQ&#39;s
       </div>
       <FAQComp faqs={generalFaq} />
     </div>

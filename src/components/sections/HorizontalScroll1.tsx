@@ -16,7 +16,7 @@ const HorizontalScroll1 = () => {
   return (
     <section ref={targetRef} className="relative h-[250vh] ">
       <div className="sticky top-0 flex h-screen items-center overflow-hidden">
-        <motion.div style={{ x }} className="flex gap-4">
+        <motion.div style={{ x }} className="flex  gap-4">
           <div className="group h-screen w-screen">
             {" "}
             <Vibe />

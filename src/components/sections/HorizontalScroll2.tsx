@@ -19,14 +19,38 @@ const HorizontalScroll2 = () => {
   const x = useTransform(scrollYProgress, [0, 1], ["1%", "-95%"]);
 
   return (
-    <section ref={targetRef} className="relative h-[350vh] ">
-      <div className="sticky top-0 flex h-screen items-center overflow-hidden">
-        <motion.div style={{ x }} className="flex gap-4">
+    <section ref={targetRef} className="relative lg:h-[350vh] ">
+      <div className="lg:sticky lg:flex top-0 hidden lg:h-screen items-center overflow-hidden">
+        <motion.div style={{ x }} className="flex lg:flex-row gap-4">
           <div className="group h-screen w-screen">
             {" "}
             <Effortless />
           </div>{" "}
           <div className="group h-screen w-screen">
+            {" "}
+            <Quick />
+          </div>
+          <div className="group h-screen w-screen">
+            {" "}
+            <Build />
+          </div>
+          <div className="group h-screen w-screen">
+            {" "}
+            <Discovery />
+          </div>
+          <div className="group h-screen w-screen">
+            {" "}
+            <Rewarded />
+          </div>
+        </motion.div>
+      </div>
+      <div className="lg:sticky top-0 flex lg:hidden h-max max-lg:flex-col lg:h-screen  items-center lg:overflow-hidden">
+        <motion.div className="flex lg:flex-row flex-col  gap-4">
+          <div className="lg:group h-screen w-screen">
+            {" "}
+            <Effortless />
+          </div>{" "}
+          <div className="lg:group h-screen w-screen">
             {" "}
             <Quick />
           </div>

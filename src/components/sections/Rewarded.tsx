@@ -10,24 +10,24 @@ const Rewarded = () => {
           alt=""
           width={300}
           height={820}
-          className="lg:-rotate-12 lg:w-[300px] w-[250px] lg:ml-10 p-4"
+          className="lg:-rotate-12 lg:w-[250px] w-[220px] lg:ml-10 p-4"
         />
         <Image
           src="/images/25.svg"
           alt=""
           width={400}
           height={100}
-          className="lg:block hidden ml-10 p-4"
+          className="lg:block hidden ml-10 p-4 lg:w-[300px]"
         />
       </div>
       <div className="lg:w-2/3 h-full">
-        <div className="flex flex-col gap-5 justify-between lg:h-full  py-10">
+        <div className="flex flex-col gap-5 justify-between max-lg:text-center lg:h-full  py-10">
           <Image
             src="/images/23.svg"
             width={400}
             height={200}
             alt=""
-            className="lg:block hidden ml-auto"
+            className="lg:block hidden lg:w-[300px]  ml-auto mr-10"
           />
 
           <h2 className="text-5xl text-[#1649FF] text-balance  leading-[1.3]">
@@ -44,7 +44,7 @@ const Rewarded = () => {
             width={700}
             height={300}
             alt=""
-            className="mt-auto lg:block hidden"
+            className="mt-auto lg:block hidden lg:w-[550px]"
           />
         </div>
       </div>

@@ -19,7 +19,7 @@ export default function FAQComp({ faqs }: any) {
                   <>
                     <dt className="w-full">
                       <DisclosureButton className="flex w-full max-w-[90vw] items-center justify-between text-left text-neutral-900 dark:text-neutral-200">
-                        <span className="text-2xl  font-bold leading-7">
+                        <span className="lg:text-2xl text-xl font-bold leading-7">
                           {faq.question}
                         </span>
                         <span className="ml-6 flex h-7 items-center">

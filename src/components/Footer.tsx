@@ -4,7 +4,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-[#1649FF] text-white pt-20">
+    <div className="bg-[#1649FF] text-white lg:pt-20 pt-32 px-5 relative">
       <div className="max-w-7xl mx-auto flex justify-between flex-wrap lg:gap-0 gap-7 p-2">
         <div className="">
           <h2 className="text-2xl font-medium mb-2">Inovact social</h2>
@@ -25,7 +25,7 @@ const Footer = () => {
           <h3>About us </h3>
           <h3>Contact us </h3>
         </div>
-        <Link href="#">
+        <Link href="#" className="lg:static absolute top-10 right-4">
           {" "}
           <div className="">
             <svg

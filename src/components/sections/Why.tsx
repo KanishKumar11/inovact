@@ -26,7 +26,7 @@ const Why = () => {
             alt=""
             width={270}
             height={500}
-            className="lg:w-[270px] w-[130px]"
+            className="lg:w-[220px] w-[130px]"
           />
           <h2 className="text-slate-50 lg:text-3xl text-xl font-medium my-5">
             Why Inovact Social?
@@ -51,7 +51,7 @@ const Why = () => {
                 unnoticed.
               </p>
             </div>
-            <div className="bg-[#E8D7F1] lg:h-full rounded-md p-4 gap-4 lg:w-1/2 flex flex-col items-center justify-center text-center">
+            <div className="bg-[#E8D7F1] lg:h-full w-full rounded-md p-4 gap-4 lg:w-1/2 flex flex-col items-center justify-center text-center">
               <h2 className="font-medium lg:text-2xl text-lg">
                 Gamified Experience
               </h2>

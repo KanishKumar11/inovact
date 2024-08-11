@@ -3,31 +3,31 @@ import React from "react";
 
 const Rewarded = () => {
   return (
-    <div className="flex w-full items-center justify-between h-full">
+    <div className="flex w-screen h-screen items-center lg:justify-between justify-center p-5  flex-wrap">
       <div>
         <Image
-          src="/images/22.svg"
+          src="/images/4.svg"
           alt=""
           width={300}
           height={820}
-          className="-rotate-12 ml-10 p-4"
+          className="lg:-rotate-12 lg:w-[300px] w-[250px] lg:ml-10 p-4"
         />
         <Image
           src="/images/25.svg"
           alt=""
           width={400}
           height={100}
-          className=" ml-10 p-4"
+          className="lg:block hidden ml-10 p-4"
         />
       </div>
-      <div className="w-2/3 h-full">
-        <div className="flex flex-col gap-5 justify-between h-full py-10">
+      <div className="lg:w-2/3 h-full">
+        <div className="flex flex-col gap-5 justify-between lg:h-full  py-10">
           <Image
             src="/images/23.svg"
             width={400}
             height={200}
             alt=""
-            className=" ml-auto"
+            className="lg:block hidden ml-auto"
           />
 
           <h2 className="text-5xl text-[#1649FF] text-balance  leading-[1.3]">
@@ -44,7 +44,7 @@ const Rewarded = () => {
             width={700}
             height={300}
             alt=""
-            className="mt-auto"
+            className="mt-auto lg:block hidden"
           />
         </div>
       </div>

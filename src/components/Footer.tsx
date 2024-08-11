@@ -5,7 +5,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="bg-[#1649FF] text-white pt-20">
-      <div className="max-w-7xl mx-auto flex justify-between">
+      <div className="max-w-7xl mx-auto flex justify-between flex-wrap lg:gap-0 gap-7 p-2">
         <div className="">
           <h2 className="text-2xl font-medium mb-2">Inovact social</h2>
           <p>
@@ -44,7 +44,7 @@ const Footer = () => {
           </div>
         </Link>
       </div>
-      <div className="max-w-7xl mx-auto items-center justify-center">
+      <div className="max-w-7xl  mx-auto items-center justify-center">
         <div className="">
           <div className="lg:text-6xl text-4xl text-center my-10">
             @Join Inovact community{" "}
@@ -63,7 +63,7 @@ const Footer = () => {
         </div>
         <div className="mt-10">&copy; 2024 All rights reserved.</div>
       </div>
-      <div className=" ">
+      <div className=" mt-10">
         <Image
           src="/images/36.svg"
           className="mx-auto mt-auto"

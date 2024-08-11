@@ -3,7 +3,7 @@ import React from "react";
 const Banner = () => {
   return (
     <div className="bg-[#25D366] w-auto max-w-[100vw] text-balance py-4 flex items-center justify-center font-medium gap-10 px-10">
-      <p className="w-max">
+      <p className="w-max text-center">
         ✨Join the Inovact WhatsApp Community and vibe with over 2000 students,
         developers, mentors, and entrepreneurs! 
       </p>

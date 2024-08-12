@@ -14,9 +14,9 @@ const HorizontalScroll1 = () => {
   const x = useTransform(scrollYProgress, [0, 1], ["1%", "-95%"]);
 
   return (
-    <section ref={targetRef} className="relative h-[250vh] ">
-      <div className="sticky top-0 flex h-screen items-center overflow-hidden">
-        <motion.div style={{ x }} className="flex  gap-4">
+    <section className="relative  overflow-hidden">
+      <div className=" top-0 flex  items-center overflow-hidden">
+        <motion.div className="flex  gap-4">
           <div className="group h-screen w-screen">
             {" "}
             <Vibe />

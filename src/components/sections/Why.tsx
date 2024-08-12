@@ -43,7 +43,7 @@ const Why = () => {
             </p>
           </div>
           <div className="lg:h-1/2 h-2/3 w-full flex flex-wrap lg:flex-nowrap gap-5  ">
-            <div className="bg-[#D8E8DB] p-5 rounded-md lg:h-full lg:w-1/2 flex gap-5 flex-col items-center w-full justify-center text-center">
+            <div className="bg-[#D8E8DB] p-5 lg:h-full lg:w-1/2 flex gap-5 flex-col items-start overflow-clip w-full justify-center text-left">
               <h2 className="font-medium lg:text-2xl text-lg"> No BS Zone</h2>
               <p className="text-sm lg:block hidden text-[#535353]">
                 We’re turning hard work into rewards. Your hustle deserves
@@ -51,7 +51,7 @@ const Why = () => {
                 unnoticed.
               </p>
             </div>
-            <div className="bg-[#E8D7F1] lg:h-full w-full rounded-md p-4 gap-4 lg:w-1/2 flex flex-col items-center justify-center text-center">
+            <div className="bg-[#E8D7F1] lg:h-full w-full rounded-md p-4 gap-4 lg:w-1/2 flex flex-col items-center justify-center text-left">
               <h2 className="font-medium lg:text-2xl text-lg">
                 Gamified Experience
               </h2>

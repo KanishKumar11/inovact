@@ -2,6 +2,8 @@
 import { Poppins } from "next/font/google";
 import React from "react";
 import { InfiniteMovingTestimonials } from "@/components/ui/infinite-moving-testimonials";
+import Marquee from "../ui/marquee";
+import Testimonial from "../cards/Testimonial";
 const poppins = Poppins({ weight: ["400", "500"], subsets: ["latin"] });
 const data = [
   {
@@ -37,7 +39,7 @@ const data = [
 ];
 const Wall = () => {
   return (
-    <div className="my-20 flex flex-col  items-center justify-center px-8 mx-auto max-w-7xl">
+    <div className="my-20 flex flex-col  items-center justify-center px-8 mx-auto max-w-7xl relative ">
       <div
         className={`${poppins.className} text-xl bg-[#1649FF] text-white flex gap-4 rounded-full px-8 py-2 items-center`}
       >
@@ -55,23 +57,19 @@ const Wall = () => {
         </svg>
         Wall of Love
       </div>
-      {/* <div className="grid lg:grid-cols-3 gap-5 md:grid-cols-2 grid-cols-1">
-        {data.map((item, index) => (
-          <motion.div
-            initial={{ y: 100, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 100 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.1 * index }}
-            key={index}
-            className=" col-span-1"
-          >
-            {" "}
-            <Testimonial data={item} key={index} />
-          </motion.div>
-        ))}
-      </div> */}
-      <InfiniteMovingTestimonials items={data} />
-      <InfiniteMovingTestimonials direction="right" items={data} />
+
+      <div className="flex flex-col gap-5 my-10 [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)] max-w-[98vw]">
+        <Marquee pauseOnHover className="[--duration:20s]">
+          {data.map((review, idx) => (
+            <Testimonial key={idx} data={review} />
+          ))}
+        </Marquee>
+        <Marquee reverse pauseOnHover className="[--duration:20s]">
+          {data.map((review, idx) => (
+            <Testimonial key={idx} data={review} />
+          ))}
+        </Marquee>
+      </div>
     </div>
   );
 };

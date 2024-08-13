@@ -5,13 +5,17 @@ const Quick = () => {
   return (
     <div className="flex w-screen h-screen items-center lg:justify-between justify-center p-5  flex-wrap">
       <div>
-        <Image
-          src="/images/4.svg"
-          alt=""
+        <video
+          // alt=""
           width={300}
+          autoPlay
+          loop
+          muted
           height={820}
-          className="lg:-rotate-12 lg:w-[250px] w-[250px] lg:ml-20 p-4"
-        />
+          className="lg:-rotate-12 lg:w-[320px] w-[250px] lg:ml-28 p-4"
+        >
+          <source src="/videos/1.mp4" type="video/mp4" />
+        </video>
       </div>
       <div className="lg:w-2/3">
         <div className="flex flex-col gap-5 items-center justify-center">

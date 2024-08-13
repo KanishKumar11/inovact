@@ -3,8 +3,8 @@ import React from "react";
 
 const Discovery = () => {
   return (
-    <div className="flex w-screen h-screen items-center lg:justify-between justify-center lg:p-0 p-5  flex-wrap">
-      <div>
+    <div className="flex w-screen h-screen max-w-7xl mx-auto items-center lg:flex-row-reverse flex-col justify-center lg:p-0 p-5  ">
+      <div className="lg:w-1/3 flex items-center justify-center ">
         <video
           // alt=""
           width={300}
@@ -12,19 +12,19 @@ const Discovery = () => {
           loop
           muted
           height={820}
-          className="lg:-rotate-12 lg:w-[320px] w-[250px] lg:ml-28 p-4"
+          className=" lg:w-[300px] w-[250px] "
         >
           <source src="/videos/3.mp4" type="video/mp4" />
         </video>
       </div>
-      <div className="lg:w-2/3 h-full">
-        <div className="flex flex-col lg:h-full gap-5 justify-between max-lg:text-center ">
+      <div className="lg:max-w-[50%] h-full">
+        <div className="flex flex-col lg:h-full gap-5 justify-center max-lg:text-center ">
           <Image
             src="/images/20.svg"
             width={700}
             height={200}
             alt=""
-            className="lg:block hidden w-[550px]"
+            className="lg:block hidden w-[450px]"
           />
           <h2 className="text-5xl text-[#1649FF] text-balance  leading-[1.3]">
             Discovery Hub{" "}
@@ -39,7 +39,7 @@ const Discovery = () => {
             width={700}
             height={500}
             alt=""
-            className="lg:block hidden w-[550px]"
+            className="lg:block hidden w-[450px]"
           />
         </div>
       </div>

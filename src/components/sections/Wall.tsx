@@ -58,13 +58,8 @@ const Wall = () => {
         Wall of Love
       </div>
 
-      <div className="flex flex-col gap-5 my-10 [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)] max-w-[98vw]">
+      <div className="flex flex-col gap-5 my-10 items-center[mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)] max-w-[98vw]">
         <Marquee pauseOnHover className="[--duration:20s]">
-          {data.map((review, idx) => (
-            <Testimonial key={idx} data={review} />
-          ))}
-        </Marquee>
-        <Marquee reverse pauseOnHover className="[--duration:20s]">
           {data.map((review, idx) => (
             <Testimonial key={idx} data={review} />
           ))}

@@ -63,15 +63,6 @@ const Footer = () => {
         </div>
         <div className="mt-10">&copy; 2024 All rights reserved.</div>
       </div>
-      <div className=" mt-10">
-        <Image
-          src="/images/36.svg"
-          className="mx-auto mt-auto"
-          alt=""
-          width={1000}
-          height={500}
-        />
-      </div>
     </div>
   );
 };

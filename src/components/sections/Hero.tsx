@@ -9,7 +9,7 @@ const Hero = () => {
           <Image src="/images/3.svg" alt=" " width={30} height={30} />
           <p>Watch the Launch</p>
         </div>
-        <h1 className=" text-center text-balance lg:text-6xl text-xl leading-relaxed text-white max-w-4xl">
+        <h1 className=" text-center text-balance lg:text-5xl text-xl leading-relaxed text-white max-w-2xl">
           A social network for students and entrepreneurs powered by proof of
           work
         </h1>
@@ -18,7 +18,7 @@ const Hero = () => {
           width={400}
           height={800}
           alt=""
-          className="lg:-mb-[30%] -mb-[50%] lg:w-[400px] w-[250px]"
+          className="lg:-mb-[27%] -mb-[50%] lg:w-[350px] w-[250px]"
         />
       </div>
     </div>

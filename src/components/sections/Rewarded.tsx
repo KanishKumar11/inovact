@@ -3,8 +3,8 @@ import React from "react";
 
 const Rewarded = () => {
   return (
-    <div className="flex w-screen h-screen items-center lg:justify-between justify-center p-5  flex-wrap">
-      <div>
+    <div className="flex w-screen h-screen items-center lg:flex-row flex-col justify-center p-5  ">
+      <div className="lg:w-1/3 flex items-center justify-center flex-col">
         <video
           // alt=""
           width={300}
@@ -12,7 +12,7 @@ const Rewarded = () => {
           loop
           muted
           height={820}
-          className=" lg:w-[320px] w-[250px] lg:ml-28 p-4"
+          className=" lg:w-[300px] w-[250px] lg:ml-28 p-4"
         >
           <source src="/videos/4.mp4" type="video/mp4" />
         </video>
@@ -25,13 +25,13 @@ const Rewarded = () => {
         />
       </div>
       <div className="lg:w-2/3 h-full">
-        <div className="flex flex-col gap-5 justify-between max-lg:text-center lg:h-full  py-10">
+        <div className="flex flex-col gap-5 justify-center items-center text-center lg:h-full  py-10">
           <Image
             src="/images/23.svg"
             width={400}
             height={200}
             alt=""
-            className="lg:block hidden lg:w-[300px]  ml-auto mr-10"
+            className="lg:block hidden lg:w-[250px]  ml-auto mr-10"
           />
 
           <h2 className="text-5xl text-[#1649FF] text-balance  leading-[1.3]">
@@ -48,7 +48,7 @@ const Rewarded = () => {
             width={700}
             height={300}
             alt=""
-            className="mt-auto lg:block hidden lg:w-[550px]"
+            className=" lg:block hidden lg:w-[450px]"
           />
         </div>
       </div>

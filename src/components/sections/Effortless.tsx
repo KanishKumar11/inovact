@@ -3,8 +3,8 @@ import React from "react";
 
 const Effortless = () => {
   return (
-    <div className="flex w-screen h-screen items-center lg:justify-between justify-center p-5  flex-wrap">
-      <div>
+    <div className="flex w-screen h-screen items-center gap-5 justify-between max-w-7xl mx-auto p-5  lg:flex-row  flex-col">
+      <div className="lg:w-1/3 flex items-center justify-center ">
         <video
           // alt=""
           width={300}
@@ -12,7 +12,7 @@ const Effortless = () => {
           loop
           muted
           height={820}
-          className="lg:-rotate-12 lg:w-[320px] w-[250px] lg:ml-28 p-4"
+          className="lg:w-[300px] w-[250px]   p-4"
         >
           <source src="/videos/1.mp4" type="video/mp4" />
         </video>
@@ -24,9 +24,9 @@ const Effortless = () => {
             width={700}
             height={400}
             alt=""
-            className="lg:block hidden lg:w-[550px]"
+            className="lg:block hidden lg:w-[450px]"
           />
-          <h2 className="lg:text-5xl text-3xl text-[#1649FF] text-balance   lg:leading-[1.3]">
+          <h2 className="lg:text-4xl text-3xl text-[#1649FF] text-balance text-center max-w-3xl  lg:leading-[1.3]">
             Effortless Collaboration: Join a Team in Just 2 Steps
           </h2>
           <p>Streamline Your Project Work with Quick and Easy Team Formation</p>
@@ -35,7 +35,7 @@ const Effortless = () => {
             width={700}
             height={400}
             alt=""
-            className="lg:block hidden w-[550px]"
+            className="lg:block hidden w-[450px]"
           />
         </div>
       </div>

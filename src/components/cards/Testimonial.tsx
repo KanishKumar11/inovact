@@ -5,7 +5,7 @@ const poppins = Poppins({ weight: ["400", "500"], subsets: ["latin"] });
 
 const Testimonial = ({ data }: any) => {
   return (
-    <div className="bg-[#EBEFFF] flex flex-col gap-5 rounded-3xl w-full  p-8 flex-auto max-w-[550px]">
+    <div className="bg-[#EBEFFF] flex h-max flex-col gap-5 rounded-3xl w-full  p-8 flex-auto max-w-[250px] lg:max-w-[450px]">
       <div className="flex gap-3 items-center">
         <div>
           <Image

@@ -50,10 +50,10 @@ const Footer = () => {
             @Join Inovact community{" "}
           </div>
           <div className="flex items-center justify-center gap-10">
-            <Link href="#">
+            <Link href="https://chat.whatsapp.com/GClxUdUctuaEUeWmJmNYHo">
               <Image src="/images/33.svg" alt="" width={50} height={50} />
             </Link>
-            <Link href="#">
+            <Link href="https://www.instagram.com/inovact__/?utm_medium=copy_link">
               <Image src="/images/34.svg" alt="" width={50} height={50} />
             </Link>{" "}
             <Link href="#">

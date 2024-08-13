@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Navbar = () => {
@@ -10,7 +11,9 @@ const Navbar = () => {
       <div className=" flex flex-row gap-5 items-center">
         <div className="lg:block hidden">About us</div>
         <div className="">
-          <Image src="/images/1.svg" width={100} height={50} alt="" />
+          <Link href="https://play.google.com/store/apps/details?id=in.pranaydas.inovact">
+            <Image src="/images/1.svg" width={100} height={50} alt="" />
+          </Link>
         </div>
       </div>
     </div>

@@ -12,13 +12,17 @@ const content = [
     ab2: "/images/13.svg",
     content: (
       <div>
-        <Image
-          src="/images/4.svg"
-          alt=""
+        <video
+          // alt=""
           width={300}
+          autoPlay
+          loop
+          muted
           height={820}
-          className="lg:-rotate-12 lg:w-[280px] w-[250px] lg:ml-28 p-4"
-        />
+          className="lg:-rotate-12 lg:w-[320px] w-[250px] lg:ml-28 p-4"
+        >
+          <source src="/videos/1.mp4" type="video/mp4" />
+        </video>
       </div>
     ),
   },
@@ -30,13 +34,17 @@ const content = [
     ab2: "/images/16.svg",
     content: (
       <div>
-        <Image
-          src="/images/4.svg"
-          alt=""
+        <video
+          // alt=""
           width={300}
+          autoPlay
+          loop
+          muted
           height={820}
-          className="lg:-rotate-12 lg:w-[280px] w-[250px] lg:ml-28 p-4"
-        />
+          className="lg:rotate-12 lg:w-[320px] w-[250px] lg:ml-28 p-4"
+        >
+          <source src="/videos/1.mp4" type="video/mp4" />
+        </video>
       </div>
     ),
   },
@@ -48,13 +56,17 @@ const content = [
     ab2: "/images/18.svg",
     content: (
       <div>
-        <Image
-          src="/images/17.svg"
-          alt=""
+        <video
+          // alt=""
           width={300}
+          autoPlay
+          loop
+          muted
           height={820}
-          className="lg:-rotate-12 lg:w-[280px] w-[250px] lg:ml-28 p-4"
-        />
+          className=" lg:w-[320px] w-[250px] lg:ml-28 p-4"
+        >
+          <source src="/videos/2.mp4" type="video/mp4" />
+        </video>
       </div>
     ),
   },
@@ -66,13 +78,17 @@ const content = [
     ab2: "/images/21.svg",
     content: (
       <div>
-        <Image
-          src="/images/4.svg"
-          alt=""
+        <video
+          // alt=""
           width={300}
+          autoPlay
+          loop
+          muted
           height={820}
-          className="lg:-rotate-12 lg:w-[280px] w-[250px] lg:ml-28 p-4"
-        />
+          className="lg:-rotate-12 lg:w-[320px] w-[250px] lg:ml-28 p-4"
+        >
+          <source src="/videos/3.mp4" type="video/mp4" />
+        </video>
       </div>
     ),
   },
@@ -85,13 +101,18 @@ const content = [
     content: (
       <div>
         <div>
-          <Image
-            src="/images/4.svg"
-            alt=""
+          <video
+            // alt=""
             width={300}
+            autoPlay
+            loop
+            muted
             height={820}
-            className="lg:-rotate-12 lg:w-[250px] w-[220px] lg:ml-10 p-4"
-          />
+            className=" lg:w-[320px] w-[250px] lg:ml-28 p-4"
+          >
+            <source src="/videos/4.mp4" type="video/mp4" />
+          </video>
+
           <Image
             src="/images/25.svg"
             alt=""

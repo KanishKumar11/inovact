@@ -3,7 +3,7 @@ import React from "react";
 
 const App = () => {
   return (
-    <div className="max-w-7xl mx-auto h-screen w-screen flex items-center justify-between pt-12 p-5 flex-col relative ">
+    <div className="max-w-7xl mx-auto  w-screen flex items-center justify-between pt-12 p-5 flex-col relative ">
       <div className="flex flex-row lg:flex-nowrap flex-wrap items-start justify-start gap-20 h-full">
         <div className="lg:w-1/2 flex flex-col gap-5">
           <h2 className="text-6xl text-[#1649FF] text-balance max-w-lg leading-[1.3]">

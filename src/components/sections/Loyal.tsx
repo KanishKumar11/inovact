@@ -23,11 +23,11 @@ const logos = [
 ];
 const Loyal = () => {
   return (
-    <div className="mt-40 lg:mt-[330px] py-20 lg:max-w-7xl max-w-[100vw] overflow-clip mx-auto flex items-center justify-center flex-col gap-8">
+    <div className="mt-60 lg:mt-[330px] py-20 lg:max-w-7xl max-w-[100vw] overflow-clip mx-auto flex items-center justify-center flex-col gap-8">
       <h2 className="lg:text-4xl text-center text-2xl">
         Our Loyal Inovact Builders{" "}
       </h2>
-      <div className="flex flex-row lg:gap-14 gap-7 items-center justify-center">
+      <div className="flex flex-row lg:gap-14 gap-12 items-center justify-center">
         <div className="flex flex-col gap-5 my-10 [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)] max-w-[98vw]">
           <Marquee pauseOnHover className="[--duration:40s]">
             {logos.map((logo, idx) => (
@@ -37,7 +37,7 @@ const Loyal = () => {
                 width={200}
                 height={200}
                 alt=""
-                className="lg:w-[200px] aspect-square object-contain lg:h-[120px] w-[50px] h-[50px]"
+                className="lg:w-[200px] aspect-square object-contain mx-3 lg:h-[120px] w-[70px] h-[70px]"
               />
             ))}
           </Marquee>

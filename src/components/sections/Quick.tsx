@@ -3,7 +3,7 @@ import React from "react";
 
 const Quick = () => {
   return (
-    <div className="flex w-screen h-screen items-center justify-center lg:flex-row-reverse flex-col  p-5  ">
+    <div className="flex w-screen lg:h-screen items-center justify-center lg:flex-row-reverse flex-col  p-5  ">
       <div className="lg:w-1/3 flex items-center justify-center">
         <video
           // alt=""
@@ -26,13 +26,16 @@ const Quick = () => {
             alt=""
             className="lg:block hidden w-[550px]"
           />
-          <h2 className="text-5xl text-[#1649FF] text-balance leading-[1.3]">
+          <h2 className="text-5xl lg:text-left  lg:mr-auto text-[#1649FF] text-balance leading-[1.3]">
             Quick Join
           </h2>
-          <p className="text-balance max-w-2xl">
-            Dive into projects and ideas that spark your interest with a single
-            tap. No more wasting time!
-          </p>
+          <div className="max-w-[400px] text-wrap mr-auto">
+            {" "}
+            <p className="text-balance text-center lg:text-left  lg:mr-auto ">
+              Dive into projects and ideas that spark your interest with a
+              single tap. No more wasting time!
+            </p>
+          </div>
           <Image
             src="/images/16.svg"
             width={700}

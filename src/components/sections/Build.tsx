@@ -3,8 +3,8 @@ import React from "react";
 
 const Build = () => {
   return (
-    <div className="flex  h-screen items-center  lg:flex-row flex-col max-w-7xl mx-auto justify-center p-5  ">
-      <div className="lg:w-1/3 items-center justify-center w-full ">
+    <div className="flex  lg:h-screen items-center  lg:flex-row flex-col max-w-7xl mx-auto justify-center p-5  ">
+      <div className="lg:w-1/3 items-center justify-center w-full  ">
         <video
           // alt=""
           width={300}
@@ -26,7 +26,7 @@ const Build = () => {
             alt=""
             className="lg:block hidden w-[450px]"
           />
-          <div className="">
+          <div className="max-w-[629px] ml-auto ">
             {" "}
             <h2 className="text-5xl text-[#1649FF] text-balance  leading-[1.3]">
               Build Your Cred{" "}

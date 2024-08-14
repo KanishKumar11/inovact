@@ -20,7 +20,7 @@ const Why = () => {
         Why Inovact Social?
       </div>
       <div className="w-full lg:p-10 p-4 flex lg:gap-5 gap-2 justify-between">
-        <div className="lg:w-1/2 lg:p-10 p-6 from-[#2C94DF] to-[#0061A8] bg-gradient-to-r flex flex-col items-center rounded-[3px]">
+        <div className="lg:w-1/2 lg:p-10 p-6 from-[#2C94DF] to-[#0061A8] bg-gradient-to-r flex  flex-col items-center rounded-[3px]">
           <Image
             src="/images/4.svg"
             alt=""
@@ -28,13 +28,13 @@ const Why = () => {
             height={500}
             className="lg:w-[220px] w-[130px]"
           />
-          <h2 className="text-slate-50 lg:text-3xl text-base font-medium my-5">
+          <h2 className="text-slate-50 lg:text-3xl text-center text-base font-medium my-5">
             Why Inovact Social?
           </h2>
         </div>
-        <div className="lg:w-1/2 flex  flex-col lg:gap-5 gap-2">
+        <div className="lg:w-1/2 flex-1 flex  flex-col lg:gap-5 gap-2">
           <div className="bg-[#C8ECF9]  lg:p-10 p-4 lg:h-1/2 h-1/3 w-full flex flex-col items-center justify-center text-right gap-3 rounded-[3px]">
-            <h2 className="lg:text-right text-center w-full lg:text-3xl font-semibold text-base">
+            <h2 className="lg:text-right text-center w-full lg:text-3xl lg:font-semibold text-base">
               Simplicity Rules{" "}
             </h2>
             <p className="text-sm text-[#535353] lg:block hidden">
@@ -44,7 +44,7 @@ const Why = () => {
           </div>
           <div className="lg:h-1/2 h-2/3 w-full flex flex-wrap lg:flex-nowrap lg:gap-5 gap-2  ">
             <div className="bg-[#D8E8DB] p-5 lg:h-full rounded-[3px] lg:w-1/2 flex gap-5 flex-col items-start overflow-clip w-full justify-center text-center lg:text-left">
-              <h2 className="font-medium lg:text-2xl text-lg max-lg:mx-auto">
+              <h2 className="lg:font-medium lg:text-2xl text-base max-lg:mx-auto">
                 No BS Zone
               </h2>
               <p className="text-sm lg:block hidden text-[#535353]">
@@ -53,7 +53,7 @@ const Why = () => {
               </p>
             </div>
             <div className="bg-[#E8D7F1]  lg:h-full w-full rounded-[3px] p-4 gap-4 lg:w-1/2 flex flex-col items-center justify-center lg:text-left text-center">
-              <h2 className="font-medium lg:text-2xl text-lg">
+              <h2 className="lg:font-medium lg:text-2xl text-base">
                 Gamified Experience
               </h2>
               <p className="text-sm lg:block hidden text-[#535353]">

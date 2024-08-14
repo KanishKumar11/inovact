@@ -50,13 +50,22 @@ const Footer = () => {
             @Join Inovact community{" "}
           </div>
           <div className="flex items-center justify-center gap-10">
-            <Link href="https://chat.whatsapp.com/GClxUdUctuaEUeWmJmNYHo">
+            <Link
+              href="https://chat.whatsapp.com/GClxUdUctuaEUeWmJmNYHo"
+              target="_blank"
+            >
               <Image src="/images/33.svg" alt="" width={50} height={50} />
             </Link>
-            <Link href="https://www.instagram.com/inovact__/?utm_medium=copy_link">
+            <Link
+              href="https://www.instagram.com/inovact__/?utm_medium=copy_link"
+              target="_blank"
+            >
               <Image src="/images/34.svg" alt="" width={50} height={50} />
             </Link>{" "}
-            <Link href="#">
+            <Link
+              href="https://www.linkedin.com/company/inovact-pvt-ltd2/mycompany/"
+              target="_blank"
+            >
               <Image src="/images/35.svg" alt="" width={50} height={50} />
             </Link>
           </div>

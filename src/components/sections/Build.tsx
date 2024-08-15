@@ -31,7 +31,7 @@ const Build = () => {
             <h2 className="text-5xl text-[#1649FF] text-balance  leading-[1.3]">
               Build Your Cred{" "}
             </h2>
-            <p className="text-balance">
+            <p className="lg:text-balance">
               Flex your skills and earn some serious street cred through proof
               of work. Get recognized for your projects and collabs, and build a
               following based on what you can actually do.

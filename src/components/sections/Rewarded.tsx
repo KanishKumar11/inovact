@@ -30,7 +30,7 @@ const Rewarded = () => {
             <h2 className="text-5xl text-[#1649FF] text-balance lg:text-left  leading-[1.3]">
               Get Rewarded
             </h2>
-            <p className="text-balance">
+            <p className="lg:text-balance">
               Interact on the app to rack up points and snag some cool
               incentives. Think discounts and even opportunities for internships
               and jobs

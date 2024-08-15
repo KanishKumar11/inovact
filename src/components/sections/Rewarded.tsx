@@ -4,7 +4,7 @@ import React from "react";
 const Rewarded = () => {
   return (
     <div className="flex w-screen lg:h-screen  lg:items-center lg:flex-row flex-col lg:justify-center p-5 max-lg:my-20 ">
-      <div className="lg:w-1/3 flex lg:items-center lg:justify-center flex-col">
+      <div className="lg:w-1/3 max-lg:mx-auto flex lg:items-center lg:justify-center flex-col">
         <video
           // alt=""
           width={300}

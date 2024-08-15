@@ -4,7 +4,7 @@ import React from "react";
 const Quick = () => {
   return (
     <div className="flex w-screen lg:h-screen lg:items-center lg:justify-center items-start justify-start lg:flex-row-reverse flex-col  p-5 max-lg:my-20  ">
-      <div className="lg:w-1/3 flex items-center justify-center">
+      <div className="lg:w-1/3 max-lg:mx-auto flex items-center justify-center">
         <video
           // alt=""
           width={300}

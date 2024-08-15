@@ -4,7 +4,7 @@ import React from "react";
 const Discovery = () => {
   return (
     <div className="flex w-screen lg:h-screen max-w-7xl mx-auto lg:items-center lg:flex-row-reverse flex-col justify-center lg:p-0 p-5 max-lg:my-20  ">
-      <div className="lg:w-1/3 flex lg:items-center lg:justify-center ">
+      <div className="lg:w-1/3 max-lg:mx-auto flex lg:items-center lg:justify-center ">
         <video
           // alt=""
           width={300}

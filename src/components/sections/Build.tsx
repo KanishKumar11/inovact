@@ -4,7 +4,7 @@ import React from "react";
 const Build = () => {
   return (
     <div className="flex  lg:h-screen lg:items-center  lg:flex-row flex-col max-w-7xl mx-auto lg:justify-center p-5 max-lg:my-20 border items-start justify-start">
-      <div className="lg:w-1/3 lg:items-center lg:justify-center w-full  item-start ">
+      <div className="lg:w-1/3 max-lg:mx-auto items-center justify-center w-full   ">
         <video
           // alt=""
           width={300}
@@ -12,7 +12,7 @@ const Build = () => {
           loop
           muted
           height={820}
-          className=" lg:w-[300px] w-[250px]    p-4"
+          className=" lg:w-[300px] w-[250px] max-lg:mx-auto   p-4"
         >
           <source src="/videos/2.mp4" type="video/mp4" />
         </video>

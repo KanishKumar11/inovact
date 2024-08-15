@@ -3,8 +3,8 @@ import React from "react";
 
 const Build = () => {
   return (
-    <div className="flex  lg:h-screen items-center  lg:flex-row flex-col max-w-7xl mx-auto justify-center p-5  ">
-      <div className="lg:w-1/3 items-center justify-center w-full  ">
+    <div className="flex  lg:h-screen lg:items-center  lg:flex-row flex-col max-w-7xl mx-auto lg:justify-center p-5 max-lg:my-20 border items-start justify-start">
+      <div className="lg:w-1/3 lg:items-center lg:justify-center w-full  item-start ">
         <video
           // alt=""
           width={300}
@@ -12,13 +12,13 @@ const Build = () => {
           loop
           muted
           height={820}
-          className=" lg:w-[300px] w-[250px]  mx-auto  p-4"
+          className=" lg:w-[300px] w-[250px]    p-4"
         >
           <source src="/videos/2.mp4" type="video/mp4" />
         </video>
       </div>
       <div className="lg:w-2/3 w-full h-full py-10">
-        <div className="flex flex-col gap-5 justify-center items-center h-full max-lg:text-center ">
+        <div className="flex flex-col gap-5 lg:justify-center lg:items-center h-full  ">
           <Image
             src="/images/19.svg"
             width={700}

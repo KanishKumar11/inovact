@@ -3,8 +3,8 @@ import React from "react";
 
 const Discovery = () => {
   return (
-    <div className="flex w-screen lg:h-screen max-w-7xl mx-auto items-center lg:flex-row-reverse flex-col justify-center lg:p-0 p-5  ">
-      <div className="lg:w-1/3 flex items-center justify-center ">
+    <div className="flex w-screen lg:h-screen max-w-7xl mx-auto lg:items-center lg:flex-row-reverse flex-col justify-center lg:p-0 p-5 max-lg:my-20  ">
+      <div className="lg:w-1/3 flex lg:items-center lg:justify-center ">
         <video
           // alt=""
           width={300}
@@ -12,13 +12,13 @@ const Discovery = () => {
           loop
           muted
           height={820}
-          className=" lg:w-[300px] w-[250px]  mx-auto  p-4 "
+          className=" lg:w-[300px] w-[250px]    p-4 "
         >
           <source src="/videos/3.mp4" type="video/mp4" />
         </video>
       </div>
       <div className="lg:max-w-[50%] h-full">
-        <div className="flex flex-col lg:h-full gap-5 justify-center max-lg:text-center ">
+        <div className="flex flex-col lg:h-full gap-5 justify-center  ">
           <Image
             src="/images/20.svg"
             width={700}

@@ -3,8 +3,8 @@ import React from "react";
 
 const Rewarded = () => {
   return (
-    <div className="flex w-screen lg:h-screen  items-center lg:flex-row flex-col justify-center p-5  ">
-      <div className="lg:w-1/3 flex items-center justify-center flex-col">
+    <div className="flex w-screen lg:h-screen  lg:items-center lg:flex-row flex-col lg:justify-center p-5 max-lg:my-20 ">
+      <div className="lg:w-1/3 flex lg:items-center lg:justify-center flex-col">
         <video
           // alt=""
           width={300}
@@ -18,7 +18,7 @@ const Rewarded = () => {
         </video>
       </div>
       <div className="lg:w-2/3 h-full">
-        <div className="flex flex-col gap-5 justify-center items-center text-center lg:h-full  lg:py-10">
+        <div className="flex flex-col gap-5 justify-center items-center lg:text-center lg:h-full  lg:py-10">
           <Image
             src="/images/23.svg"
             width={400}
@@ -26,7 +26,7 @@ const Rewarded = () => {
             alt=""
             className="lg:block hidden lg:w-[250px]  ml-auto mr-10"
           />
-          <div className="max-w-[490px] lg:text-left">
+          <div className="lg:ml-40 lg:text-left">
             <h2 className="text-5xl text-[#1649FF] text-balance lg:text-left  leading-[1.3]">
               Get Rewarded
             </h2>

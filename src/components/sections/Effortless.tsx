@@ -3,8 +3,8 @@ import React from "react";
 
 const Effortless = () => {
   return (
-    <div className="flex w-screen lg:h-screen items-center gap-5 justify-center lg:justify-between  max-w-7xl mx-auto p-5  lg:flex-row  flex-col">
-      <div className="lg:w-1/3 flex items-center justify-center ">
+    <div className="flex w-screen lg:h-screen lg:items-center gap-5 justify-start items-start lg:justify-between  max-w-7xl mx-auto max-lg:my-20 p-5  lg:flex-row  flex-col">
+      <div className="lg:w-1/3  max-lg:mx-auto flex items-center justify-center ">
         <video
           // alt=""
           width={300}
@@ -18,7 +18,7 @@ const Effortless = () => {
         </video>
       </div>
       <div className="lg:w-2/3   ">
-        <div className="flex flex-col mt-auto h-auto justify-center items-center  gap-5 ">
+        <div className="flex flex-col mt-auto h-auto lg:justify-center lg:items-center  gap-5 ">
           <Image
             src="/images/14.svg"
             width={700}
@@ -28,11 +28,11 @@ const Effortless = () => {
           />
           <div className="max-w-3xl  flex items-center justify-center">
             {" "}
-            <h2 className="lg:text-4xl text-3xl text-[#1649FF] text-balance lg:text-left mx-auto  max-w-max  text-center lg:w-[470px]  lg:leading-[1.3]">
-              Effortless Collaboration: Join a Team in Just 2 Steps
+            <h2 className="lg:text-4xl text-3xl text-[#1649FF] text-balance text-left mx-auto  max-w-max   lg:w-[470px]  lg:leading-[1.3]">
+              Effortless Collaboration: Find Your Crew
             </h2>
           </div>
-          <p className="max-lg:text-center">
+          <p className="">
             Streamline Your Project Work with Quick and Easy Team Formation
           </p>
           <Image

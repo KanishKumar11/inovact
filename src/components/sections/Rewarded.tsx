@@ -3,7 +3,7 @@ import React from "react";
 
 const Rewarded = () => {
   return (
-    <div className="flex w-screen lg:h-screen  lg:items-center lg:flex-row flex-col lg:justify-center p-5 max-lg:my-20 ">
+    <div className="flex w-screen   lg:items-center lg:flex-row flex-col lg:justify-center p-5 my-5 lg:my-20 ">
       <Image
         src="/images/23.svg"
         width={400}
@@ -25,7 +25,7 @@ const Rewarded = () => {
         </video>
       </div>
       <div className="lg:w-2/3 h-full">
-        <div className="flex flex-col gap-5 justify-center items-center lg:text-center lg:h-full  lg:py-10">
+        <div className="flex flex-col py-10 gap-5 justify-center items-center lg:text-center lg:h-full  lg:py-10">
           <Image
             src="/images/23.svg"
             width={400}

@@ -18,7 +18,10 @@ const Navbar = () => {
       <div className=" flex flex-row gap-5 items-center">
         {" "}
         <div className="">
-          <Link href="https://play.google.com/store/apps/details?id=in.pranaydas.inovact">
+          <Link
+            href="https://play.google.com/store/apps/details?id=in.pranaydas.inovact"
+            target="_blank"
+          >
             <Image
               src="/images/1.png"
               width={200}

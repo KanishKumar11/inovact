@@ -3,7 +3,7 @@ import React from "react";
 
 const Build = () => {
   return (
-    <div className="flex  lg:h-screen lg:items-center  lg:flex-row flex-col max-w-7xl mx-auto lg:justify-center p-5 max-lg:my-20  items-start justify-start">
+    <div className="flex   lg:items-center  lg:flex-row flex-col max-w-7xl mx-auto lg:justify-center p-5 lg:my-20 my-5  items-start justify-start">
       <Image
         src="/images/19.svg"
         width={700}

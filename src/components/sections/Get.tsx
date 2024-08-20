@@ -12,13 +12,16 @@ const Get = () => {
         Get in on the action with 3000+ students and entrepreneurs already
         making waves with their projects and ideas.
       </p>
-      <Link href="https://play.google.com/store/apps/details?id=in.pranaydas.inovact">
+      <Link
+        href="https://play.google.com/store/apps/details?id=in.pranaydas.inovact"
+        target="_blank"
+      >
         <Image
           src="/images/1.png"
-          width={300}
-          height={100}
+          width={1000}
+          height={1000}
           alt=""
-          className=""
+          className="h-auto w-[250px]"
         />{" "}
       </Link>
     </div>

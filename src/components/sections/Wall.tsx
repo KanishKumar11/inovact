@@ -8,33 +8,48 @@ const poppins = Poppins({ weight: ["400", "500"], subsets: ["latin"] });
 const data = [
   {
     user: "/images/26.svg",
-    name: "Parth Agarwal",
-    desc: "An excellent platform to post ideas ranging from projects to startups. A straight up booster for enthusiastic developers digging for projects, collaborations and even connections. I downloaded this application and was amazed to see a plethora of project ideas and authentically skilled people willing to share ideas and thoughts. Great work by the Inovact team in making this amazing application.",
+    name: "Sumit Dey",
+    desc: "The app works smoothly without any glitch. The interface is simple and easy to use. It is useful for both students as they can collaborate on interesting projects and also entrepreneurs can spot early talent.",
   },
   {
-    user: "/images/27.svg",
-    name: "Parth Agarwal",
+    user: "https://play-lh.googleusercontent.com/a-/ALV-UjWeWvaQNAVJm4yI1e-4_mXVpKNuqb2fF1e-Hv7K0J6_a21sS48v=s32-rw",
+    name: "Anshul Soni",
+    desc: "Awesome App,Helped me to get clients!",
+  },
+  {
+    user: "https://play-lh.googleusercontent.com/a-/ALV-UjXsFbI_FqELhzOTqfe4-qc-QONy9cj4bAVd_Gh1P9K_xRW3YODb=s32-rw",
+    name: "Brahamjot Singh",
+    desc: "Great app ❤️ Loved it 😁",
+  },
+  {
+    user: "https://play-lh.googleusercontent.com/a-/ALV-UjVfDPIhThVlLGIV5kDCVeeXUrWvLEIl-9OJZqoWRH1o2bm5NbEhLg=s32-rw",
+    name: "Pratik",
+    desc: "Wonderful idea, and really good user interface, so useful for students like me. Loved it♥️",
+  },
+  {
+    user: "https://play-lh.googleusercontent.com/a/ACg8ocJDBZ0Qk-zs2RhJ_riB0n8H3rzOTATiTIdWKBDjAz49ANeVn3hb=s32-rw-mo",
+    name: "Ramnish R",
+    desc: "The idea is unique and I enjoyed reading thru the ideas and thoughts feed.",
+  },
+  {
+    user: "https://play-lh.googleusercontent.com/a-/ALV-UjXM0mVYCapy1HvmgyinGQLCFGvKwe2mKxxn0SuUaJza6IQnKsA4Tg=s32-rw",
+    name: "Ajeya Ranga",
+    desc: "Nice concept. The app is very easy to use. Hoping to see a lot of features in the upcoming days. Good going!",
+  },
+  {
+    user: "https://play-lh.googleusercontent.com/a/ACg8ocINl94SkRyUTV1v9YMa4MSfNwBRsOZVJx7w6Jw5gM9E5gECrw=s32-rw-mo",
+    name: "Nipun Aggarwal",
     desc: "Addresses a very underrated problem statement and bridges the gap b/w Industry and Candidates. Found the app easy to use and feature-rich.",
   },
   {
-    user: "/images/28.svg",
-    name: "Pratik",
-    desc: "Wonderful idea, and really good user interface, so useful for students like me. Loved it ♥️",
+    user: "https://play-lh.googleusercontent.com/a-/ALV-UjWwLQlEj2VfHbMbHC0HUJObSubFxzJ6fNylsqAbJfOQP7ICSgHy=s32-rw",
+    name: "Ashutosh Gautam",
+    desc: "Very nice user experience, clean interface with sleek design. I was amazed by the performance of the app.",
   },
   {
-    user: "/images/29.svg",
-    name: "Shivu D.G",
-    desc: "Great endeavour to bring entrepreneurial opportunity to the much in need!",
-  },
-  {
-    user: "/images/30.svg",
-    name: "Akshat Srivastava",
-    desc: "Amazing app to look up for teammates. Amazed my the UI and seamless performance of the app",
-  },
-  {
-    user: "/images/31.svg",
-    name: "Apoorv Pandey",
-    desc: "Inovact Social impressively streamlines the way innovators connect, showcasing skills over certificates and making collaboration simple and effective. Its focus on real projects and ease of finding mentors and teams is a game-changer for professionals looking to make an impact.!",
+    user: "https://play-lh.googleusercontent.com/a-/ALV-UjV-sluXMxzuKxaE6-sf-YrFUEn3dqU4hB1Q1mYrOusZzLzjB8s=s32-rw",
+    name: "Sayan Jana",
+    desc: "Hoooo.... loving the quality people's circle. 🤩",
   },
 ];
 const Wall = () => {
@@ -59,7 +74,7 @@ const Wall = () => {
       </div>
 
       <div className="flex flex-col gap-5 mt-10 lg:my-10 items-center[mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)] max-w-[98vw] ">
-        <Marquee pauseOnHover className="[--duration:20s]">
+        <Marquee pauseOnHover className="[--duration:60s]">
           {data.map((review, idx) => (
             <Testimonial key={idx} data={review} />
           ))}

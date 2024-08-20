@@ -3,7 +3,7 @@ import React from "react";
 
 const Quick = () => {
   return (
-    <div className="flex w-screen lg:h-screen lg:items-center lg:justify-center items-start justify-start lg:flex-row-reverse flex-col  p-5 max-lg:my-20  ">
+    <div className="flex w-screen  lg:items-center lg:justify-center items-start justify-start lg:flex-row-reverse flex-col  p-5 max-lg:my-5  ">
       <Image
         src="/images/15.svg"
         width={700}
@@ -26,7 +26,7 @@ const Quick = () => {
         </video>
       </div>
       <div className="lg:max-w-[50%]">
-        <div className="flex flex-col gap-5 lg:items-center lg:justify-center">
+        <div className="flex flex-col py-10 gap-5 lg:items-center lg:justify-center">
           <Image
             src="/images/15.svg"
             width={700}

@@ -8,12 +8,12 @@ const Testimonial = ({ data }: any) => {
     <div className="bg-[#EBEFFF] flex h-max flex-col gap-5 rounded-3xl w-full  p-8 flex-auto max-w-[250px] lg:max-w-[450px]">
       <div className="flex gap-3 items-center">
         <div>
-          <Image
+          <img
             src={data.user}
             alt=""
             width={50}
             height={50}
-            className="lg:w-[50px] lg:h-[50px] w-[35px] h-[35px]"
+            className="w-[35px] h-[35px] rounded-full"
           />
         </div>
         <div className="euclid">

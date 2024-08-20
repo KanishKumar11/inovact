@@ -3,7 +3,7 @@ import React from "react";
 
 const Discovery = () => {
   return (
-    <div className="flex w-screen lg:h-screen max-w-7xl mx-auto lg:items-center lg:flex-row-reverse flex-col justify-center lg:p-0 p-5 max-lg:my-20  ">
+    <div className="flex w-screen  max-w-7xl mx-auto lg:items-center lg:flex-row-reverse flex-col justify-center lg:p-0 p-5 max-lg:my-5  ">
       <Image
         src="/images/20.svg"
         width={700}
@@ -27,7 +27,7 @@ const Discovery = () => {
         </video>
       </div>
       <div className="lg:max-w-[50%] h-full">
-        <div className="flex flex-col lg:h-full gap-5 justify-center  ">
+        <div className="flex flex-col py-10 lg:h-full gap-5 justify-center  ">
           <Image
             src="/images/20.svg"
             width={700}

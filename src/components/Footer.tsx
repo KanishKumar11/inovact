@@ -15,16 +15,21 @@ const Footer = () => {
           </p>
         </div>
         <div className="">
-          <h2 className="text-2xl font-medium mb-2">Products</h2>
-          <h3>Features </h3>
-          <h3>Join community </h3>
+          <h2 className="text-2xl font-medium mb-2">Product</h2>
+          <Link href="/#effortless">
+            <h3>Features </h3>
+          </Link>
+          <Link href="/#">
+            {" "}
+            <h3>Join community </h3>
+          </Link>
         </div>
-        <div className="">
+        {/* <div className="">
           {" "}
           <h2 className="text-2xl font-medium mb-2">Company </h2>
           <h3>About us </h3>
           <h3>Contact us </h3>
-        </div>
+        </div> */}
         <Link href="#" className="lg:static absolute top-10 right-4">
           {" "}
           <div className="">

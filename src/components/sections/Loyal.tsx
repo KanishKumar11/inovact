@@ -23,9 +23,12 @@ const logos = [
 ];
 const Loyal = () => {
   return (
-    <div className="mt-60 lg:mt-[330px] py-20  max-w-[100vw] overflow-clip mx-auto flex items-center justify-center flex-col gap-8">
+    <div
+      className="mt-48 lg:mt-[330px] lg:py-20 
+     max-w-[100vw] overflow-clip mx-auto flex items-center justify-center flex-col gap-8"
+    >
       <h2 className="lg:text-4xl text-center text-2xl">
-        Our Loyal Inovact Builders{" "}
+        Members on Inovact Social come from
       </h2>
       <div className="flex flex-row lg:gap-14 gap-12 items-center justify-center">
         <div className="flex flex-col gap-5 my-10 [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)] max-w-[98vw]">

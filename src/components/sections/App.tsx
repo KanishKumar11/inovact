@@ -7,7 +7,7 @@ const App = () => {
       <div className="flex flex-row w-full lg:flex-nowrap flex-wrap  justify-start  gap-20 h-full ">
         <div className="lg:w-1/2 flex flex-col items-start gap-5 ">
           <h2 className="lg:text-6xl text-4xl text-[#1649FF] text-balance xl:pl-10 2xl:pl-20 lg:px-0 leading-[1.3]">
-            Inovact Social
+            Inovact Social: The Solution
           </h2>
           <p className="max-w-lg text-2xl"></p>
         </div>

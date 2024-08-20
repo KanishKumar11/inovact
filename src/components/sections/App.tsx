@@ -6,7 +6,7 @@ const App = () => {
     <div className="max-w-7xl mx-auto  w-screen flex items-center justify-between pt-12 p-5  flex-col relative ">
       <div className="flex flex-row w-full lg:flex-nowrap flex-wrap  justify-start  gap-20 h-full ">
         <div className="lg:w-1/2 flex flex-col items-start gap-5 ">
-          <h2 className="text-6xl text-[#1649FF] text-balance xl:pl-10 2xl:pl-20 lg:px-0 leading-[1.3]">
+          <h2 className="lg:text-6xl text-4xl text-[#1649FF] text-balance xl:pl-10 2xl:pl-20 lg:px-0 leading-[1.3]">
             Inovact Social
           </h2>
           <p className="max-w-lg text-2xl"></p>

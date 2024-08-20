@@ -3,13 +3,21 @@ import React from "react";
 
 const Build = () => {
   return (
-    <div className="flex  lg:h-screen lg:items-center  lg:flex-row flex-col max-w-7xl mx-auto lg:justify-center p-5 max-lg:my-20 border items-start justify-start">
+    <div className="flex  lg:h-screen lg:items-center  lg:flex-row flex-col max-w-7xl mx-auto lg:justify-center p-5 max-lg:my-20  items-start justify-start">
+      <Image
+        src="/images/19.svg"
+        width={700}
+        height={200}
+        alt=""
+        className="lg:hidden block w-full"
+      />
       <div className="lg:w-1/3 max-lg:mx-auto items-center justify-center w-full   ">
         <video
           // alt=""
           width={300}
           autoPlay
           loop
+          playsInline
           muted
           height={820}
           className=" lg:w-[300px] w-[250px] max-lg:mx-auto   p-4"
@@ -28,10 +36,10 @@ const Build = () => {
           />
           <div className="max-w-[629px] ml-auto ">
             {" "}
-            <h2 className="text-5xl text-[#1649FF] text-balance  leading-[1.3]">
+            <h2 className="lg:text-5xl text-4xl text-[#1649FF] text-balance  leading-[1.3]">
               Build Your Cred{" "}
             </h2>
-            <p className="lg:text-balance">
+            <p className="lg:text-balance text-zinc-700">
               Flex your skills and earn some serious street cred through proof
               of work. Get recognized for your projects and collabs, and build a
               following based on what you can actually do.
@@ -42,7 +50,7 @@ const Build = () => {
             width={700}
             height={200}
             alt=""
-            className="lg:block hidden w-[450px]"
+            className=" lg:w-[450px] w-full"
           />
         </div>
       </div>

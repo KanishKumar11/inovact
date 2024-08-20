@@ -5,10 +5,10 @@ const Vibe = () => {
     <div className="max-w-7xl mx-auto overflow-x-hidden w-screen flex items-center justify-between py-28 flex-col p-5">
       <div className="flex flex-row lg:flex-nowrap flex-wrap items-start justify-start gap-20">
         <div className="lg:w-1/2 flex flex-col gap-5">
-          <h2 className="lg:text-6xl text-5xl text-[#FF0505] text-balance max-w-lg leading-[1.3]">
+          <h2 className="lg:text-6xl text-4xl text-[#FF0505] text-balance max-w-lg leading-[1.3]">
             Vibe Check: The Problem
           </h2>
-          <p className="max-w-lg text-xl">
+          <p className="max-w-lg lg:text-xl text-base text-zinc-700">
             Students have projects, and entrepreneurs have ideas, but they’re
             struggling to find the squad to bring it all to life. 
           </p>

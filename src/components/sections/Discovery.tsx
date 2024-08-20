@@ -4,12 +4,21 @@ import React from "react";
 const Discovery = () => {
   return (
     <div className="flex w-screen lg:h-screen max-w-7xl mx-auto lg:items-center lg:flex-row-reverse flex-col justify-center lg:p-0 p-5 max-lg:my-20  ">
+      <Image
+        src="/images/20.svg"
+        width={700}
+        height={200}
+        alt=""
+        className="lg:hidden block w-full"
+      />
+
       <div className="lg:w-1/3 max-lg:mx-auto flex lg:items-center lg:justify-center ">
         <video
           // alt=""
           width={300}
           autoPlay
           loop
+          playsInline
           muted
           height={820}
           className=" lg:w-[300px] w-[250px]    p-4 "
@@ -26,7 +35,7 @@ const Discovery = () => {
             alt=""
             className="lg:block hidden w-[450px]"
           />
-          <h2 className="text-5xl text-[#1649FF] text-balance  leading-[1.3]">
+          <h2 className="lg:text-5xl text-4xl text-[#1649FF] text-balance  ">
             Discovery Hub{" "}
           </h2>
           <p className="text-balance">

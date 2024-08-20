@@ -39,7 +39,7 @@ const data = [
 ];
 const Wall = () => {
   return (
-    <div className="my-20 flex flex-col  items-center justify-center px-8 mx-auto max-w-7xl relative ">
+    <div className="lg:my-20 flex flex-col  items-center justify-center px-8 mx-auto max-w-7xl relative ">
       <div
         className={`${poppins.className} text-xl bg-[#1649FF] text-white flex gap-4 rounded-full px-8 py-2 items-center`}
       >
@@ -58,7 +58,7 @@ const Wall = () => {
         Wall of Love
       </div>
 
-      <div className="flex flex-col gap-5 my-10 items-center[mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)] max-w-[98vw]">
+      <div className="flex flex-col gap-5 mt-10 lg:my-10 items-center[mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)] max-w-[98vw] ">
         <Marquee pauseOnHover className="[--duration:20s]">
           {data.map((review, idx) => (
             <Testimonial key={idx} data={review} />

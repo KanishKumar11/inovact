@@ -25,7 +25,7 @@ const Effortless = () => {
           height={820}
           className="lg:w-[300px] w-[250px]   p-4"
         >
-          <source src="/videos/4.mp4" type="video/mp4" />
+          <source src="/videos/look.mp4" type="video/mp4" />
         </video>
       </div>
       <div className="lg:w-2/3   ">

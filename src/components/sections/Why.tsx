@@ -22,7 +22,7 @@ const Why = () => {
       <div className="w-full lg:p-10 p-4 flex lg:gap-5 gap-2 justify-between">
         <div className="lg:w-1/2 lg:p-10 p-6 from-[#2C94DF] to-[#0061A8] bg-gradient-to-r flex  flex-col items-center rounded-[3px]">
           <Image
-            src="/images/4.svg"
+            src="/images/49.png"
             alt=""
             width={270}
             height={500}

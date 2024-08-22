@@ -23,7 +23,7 @@ const Discovery = () => {
           height={820}
           className=" lg:w-[300px] w-[250px]    p-4 "
         >
-          <source src="/videos/3.mp4" type="video/mp4" />
+          <source src="/videos/discover.mp4" type="video/mp4" />
         </video>
       </div>
       <div className="lg:max-w-[50%] h-full">

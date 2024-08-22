@@ -14,8 +14,8 @@ const App = () => {
         <div className="lg:w-1/2 w-full h-full">
           <Image
             src="/images/12.svg"
-            width={400}
-            height={200}
+            width={800}
+            height={800}
             className="lg:w-[400px] w-[250px] lg:h-[200px] h-[125px] justify-self-end ml-auto"
             alt=""
           />

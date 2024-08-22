@@ -27,11 +27,11 @@ const Hero = () => {
           work
         </h1>
         <Image
-          src="/images/4.svg"
+          src="/images/49.png"
           width={1000}
           height={1200}
           alt=""
-          className="lg:-mb-[27%] -mb-[50%] lg:w-[350px] w-[250px]"
+          className="lg:-mb-[27%] -mb-[50%] lg:w-[370px] w-[250px]"
         />
       </div>
     </div>

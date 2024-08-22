@@ -17,11 +17,12 @@ const Rewarded = () => {
           width={300}
           autoPlay
           loop
+          playsInline
           muted
           height={820}
           className=" lg:w-[300px] w-[250px] lg:ml-28 p-4"
         >
-          <source src="/videos/1.mp4" type="video/mp4" />
+          <source src="/videos/win.mp4" type="video/mp4" />
         </video>
       </div>
       <div className="lg:w-2/3 h-full">

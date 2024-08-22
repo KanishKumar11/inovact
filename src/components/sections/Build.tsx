@@ -22,7 +22,7 @@ const Build = () => {
           height={820}
           className=" lg:w-[300px] w-[250px] max-lg:mx-auto   p-4"
         >
-          <source src="/videos/2.mp4" type="video/mp4" />
+          <source src="/videos/build.mp4" type="video/mp4" />
         </video>
       </div>
       <div className="lg:w-2/3 w-full h-full py-10">

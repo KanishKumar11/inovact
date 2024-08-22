@@ -22,7 +22,7 @@ const Quick = () => {
           height={820}
           className="lg:w-[300px] w-[250px]  p-4"
         >
-          <source src="/videos/1.mp4" type="video/mp4" />
+          <source src="/videos/join.mp4" type="video/mp4" />
         </video>
       </div>
       <div className="lg:max-w-[50%]">

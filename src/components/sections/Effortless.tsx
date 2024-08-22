@@ -20,6 +20,7 @@ const Effortless = () => {
           width={300}
           autoPlay
           loop
+          playsInline
           muted
           height={820}
           className="lg:w-[300px] w-[250px]   p-4"

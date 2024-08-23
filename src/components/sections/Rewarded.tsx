@@ -3,7 +3,7 @@ import React from "react";
 
 const Rewarded = () => {
   return (
-    <div className="flex w-screen   lg:items-center lg:flex-row flex-col lg:justify-center p-5 my-5 lg:my-20 ">
+    <div className="flex w-screen   lg:items-center lg:flex-row flex-col lg:justify-center p-6 my-5 lg:my-20 ">
       <Image
         src="/images/23.svg"
         width={400}

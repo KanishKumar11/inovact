@@ -2,7 +2,7 @@ import React from "react";
 
 const Vibe = () => {
   return (
-    <div className="max-w-7xl mx-auto overflow-x-hidden w-screen flex items-center justify-between py-14 lg:py-28 flex-col p-5">
+    <div className="max-w-7xl mx-auto overflow-x-hidden w-screen flex items-center justify-between py-14 lg:py-28 flex-col p-6">
       <div className="flex flex-row lg:flex-nowrap flex-wrap items-start justify-start gap-20">
         <div className="lg:w-1/2 flex flex-col gap-5">
           <h2 className="lg:text-6xl text-4xl text-[#FF0505] text-balance max-w-lg leading-[1.3]">

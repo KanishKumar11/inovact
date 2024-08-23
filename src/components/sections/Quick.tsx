@@ -3,7 +3,7 @@ import React from "react";
 
 const Quick = () => {
   return (
-    <div className="flex w-screen  lg:items-center lg:justify-center items-start justify-start lg:flex-row-reverse flex-col  p-5 max-lg:my-5  ">
+    <div className="flex w-screen  lg:items-center lg:justify-center items-start justify-start lg:flex-row-reverse flex-col  p-6 max-lg:my-5  ">
       <Image
         src="/images/15.svg"
         width={700}

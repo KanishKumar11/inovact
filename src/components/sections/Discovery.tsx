@@ -3,7 +3,7 @@ import React from "react";
 
 const Discovery = () => {
   return (
-    <div className="flex w-screen  max-w-7xl mx-auto lg:items-center lg:flex-row-reverse flex-col justify-center lg:p-0 p-5 max-lg:my-5  ">
+    <div className="flex w-screen  max-w-7xl mx-auto lg:items-center lg:flex-row-reverse flex-col justify-center lg:p-0 p-6 max-lg:my-5  ">
       <Image
         src="/images/20.svg"
         width={700}

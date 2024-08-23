@@ -4,7 +4,7 @@ import React from "react";
 const Effortless = () => {
   return (
     <div
-      className="flex w-screen lg:h-screen lg:items-center gap-5 justify-start items-start lg:justify-between  max-w-7xl mx-auto max-lg:my-5 p-5  lg:flex-row  flex-col"
+      className="flex w-screen lg:h-screen lg:items-center gap-5 justify-start items-start lg:justify-between  max-w-7xl mx-auto max-lg:my-5 p-6  lg:flex-row  flex-col"
       id="effortless"
     >
       <Image

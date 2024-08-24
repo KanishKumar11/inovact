@@ -1,3 +1,4 @@
+"use client";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import App from "@/components/sections/App";
@@ -17,9 +18,19 @@ import Rewarded from "@/components/sections/Rewarded";
 import Vibe from "@/components/sections/Vibe";
 import Wall from "@/components/sections/Wall";
 import Why from "@/components/sections/Why";
-import React from "react";
+import React, { useEffect } from "react";
 
-const page = () => {
+const Page = () => {
+  useEffect(() => {
+    const videos = document.querySelectorAll("video");
+    videos.forEach((video) => {
+      video.play().catch((error) => {
+        // Handle the error, e.g., autoplay was blocked
+        console.log("Autoplay blocked:", error);
+      });
+    });
+  }, []);
+
   return (
     <div className="overflow-hidden relative">
       <Navbar />
@@ -42,4 +53,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

@@ -19,6 +19,7 @@ const Rewarded = () => {
           loop
           playsInline
           muted
+          preload="auto"
           height={820}
           className=" lg:w-[300px] w-[250px] lg:ml-28 p-4"
         >

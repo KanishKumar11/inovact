@@ -16,9 +16,10 @@ const Quick = () => {
           // alt=""
           width={300}
           autoPlay
-          playsInline
           loop
+          playsInline
           muted
+          preload="auto"
           height={820}
           className="lg:w-[300px] w-[250px]  p-4"
         >

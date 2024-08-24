@@ -19,6 +19,7 @@ const Build = () => {
           loop
           playsInline
           muted
+          preload="auto"
           height={820}
           className=" lg:w-[300px] w-[250px] max-lg:mx-auto   p-4"
         >

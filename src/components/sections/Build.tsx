@@ -19,6 +19,8 @@ const Build = () => {
           loop
           playsInline
           muted
+          data-wf-ignore="true"
+          data-object-fit="cover"
           preload="auto"
           height={820}
           className=" lg:w-[300px] w-[250px] max-lg:mx-auto   p-4"

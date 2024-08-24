@@ -20,6 +20,8 @@ const Quick = () => {
           playsInline
           muted
           preload="auto"
+          data-wf-ignore="true"
+          data-object-fit="cover"
           height={820}
           className="lg:w-[300px] w-[250px]  p-4"
         >

@@ -20,6 +20,8 @@ const Rewarded = () => {
           playsInline
           muted
           preload="auto"
+          data-wf-ignore="true"
+          data-object-fit="cover"
           height={820}
           className=" lg:w-[300px] w-[250px] lg:ml-28 p-4"
         >
